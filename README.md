@@ -76,4 +76,4 @@ Feel free to fork this repo and submit a pull request.
 
 ## 💡 Author
 👨‍💻 Developed by **Your Name**  
-🌐 [Your Portfolio](#) | 🐦 [Twitter](#) | 💼 [LinkedIn](#)
+🌐 [[Your Portfolio](https://www.linkedin.com/in/richard-antoine30789?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)](#) | 🐦 [Twitter](#) | 💼 [LinkedIn](#)
