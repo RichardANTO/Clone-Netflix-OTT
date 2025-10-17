@@ -1,0 +1,6 @@
+/* client/src/pages/home/home.scss */
+.home {
+    background-color: var(--main-color);
+    overflow-y: hidden;
+    /* Prevent horizontal scroll from List component */
+}

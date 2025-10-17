@@ -1,0 +1,92 @@
+/* client/src/pages/login/login.scss */
+.login {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top,
+            rgba(0, 0, 0, 0.8) 0%,
+            rgba(0, 0, 0, 0) 60%,
+            rgba(0, 0, 0, 0.8) 100%),
+        url("http://cdn.collider.com/wp-content/uploads/2016/09/netflix-marvel.jpg");
+    background-size: cover;
+    position: relative;
+
+    .top {
+        .wrapper {
+            padding: 20px 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .logo {
+                height: 40px;
+            }
+        }
+    }
+
+    .container {
+        width: 100%;
+        height: 85%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+
+        form {
+            width: 300px;
+            height: 350px;
+            padding: 60px 68px 40px;
+            border-radius: 5px;
+            background-color: var(--main-color);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            h1 {
+                font-size: 32px;
+                margin-bottom: 25px;
+            }
+
+            input {
+                height: 40px;
+                border-radius: 5px;
+                background-color: gray;
+                color: white;
+                padding-left: 10px;
+                margin-bottom: 15px;
+
+                &::placeholder {
+                    color: lightgray;
+                }
+            }
+
+            .loginButton {
+                height: 40px;
+                border-radius: 5px;
+                background-color: red;
+                color: white;
+                border: none;
+                font-size: 16px;
+                font-weight: 500;
+                cursor: pointer;
+                margin-bottom: 10px;
+            }
+
+            span {
+                color: lightgray;
+
+                b {
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+
+            small {
+                color: lightgray;
+            }
+        }
+    }
+}

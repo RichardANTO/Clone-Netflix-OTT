@@ -1,0 +1,56 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# ------------------------------------
+# 1. ROOT LEVEL (NETFLIX-CLONE FOLDER)
+# ------------------------------------
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Build (If your root has a build folder)
+/build
+
+# Environment variables (Local secrets)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs and lock files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+.DS_Store
+
+# ------------------------------------
+# 2. BACKEND (API FOLDER)
+# ------------------------------------
+# Dependencies
+/api/node_modules
+
+# Environment variables (Crucial for backend secrets)
+/api/.env
+/api/.env.local
+
+# Build/Dist folder (where the compiled backend might go)
+/api/dist
+
+# ------------------------------------
+# 3. FRONTEND (CLIENT FOLDER)
+# ------------------------------------
+# Dependencies
+/client/node_modules
+
+# Build folder
+/client/build
+
+# Environment variables
+/client/.env
+/client/.env.local
