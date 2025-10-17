@@ -57,8 +57,8 @@ npm start
 ---
 
 ## 📸 Screenshots
-👉 *(<img width="1812" height="1101" alt="Screenshot 2025-06-22 123955" src="https://github.com/user-attachments/assets/7329ab40-c56d-48f8-b260-50c3af6ff04c" />
-)*
+👉 *<img width="1536" height="1024" alt="ChatGPT Image Oct 15, 2025, 10_05_42 PM" src="https://github.com/user-attachments/assets/19622f7b-1190-4be9-b47f-b1bd33bdafb5" />
+*
 
 ---
 
